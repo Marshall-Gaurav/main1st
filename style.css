@@ -1,0 +1,119 @@
+body{
+    margin: 5% auto;
+    background-color: #dcdcdc;
+}   
+.main-block{
+    margin: 0px auto;
+    width: 60%;
+    height: auto;
+}
+.yellow-block{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    width:50%;
+    margin: 60px auto;
+}
+.ylw{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #aea51c;
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+.blue-block{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    width:50%;
+    margin-left:31.05%;
+    margin-top:-51%;
+}
+.blu{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #2d6574;
+    text-align: center;
+    
+}
+.side-white1{
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    width: 100px;
+    margin-left: 18.6%;
+    margin-top: -61.2%;
+}
+.swht{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    text-align: center;
+    mix-blend-mode:lighten;
+}
+.side-white2{
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    width: 100px;
+    margin-left: 74.34%;
+    margin-top: -55%;
+}
+.swht2{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    text-align: center;
+    mix-blend-mode: lighten;
+}
+.convex1{
+    display: grid;
+    grid-template-rows:repeat(9,50px);
+    width:50px;
+    margin-top: -62.35%;
+    margin-left: 37.3%;
+}
+.convex2{
+    display: grid;
+    grid-template-rows:repeat(9,50px);
+    width:50px;
+    margin-top: -61.7%;
+    margin-left: 49.6%;
+}
+.convex3{
+    display: grid;
+    grid-template-rows:repeat(9,50px);
+    width:50px;
+    margin-top: -55.45%;
+    margin-left: 62%;
+}
+.cvx:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background-color: #dcdcdc;
+    border-radius:0% 100% 0% 100%;
+    mix-blend-mode: lighten;
+}
+.cvx:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background-color: #dcdcdc;
+    border-radius:100% 0% 100% 0%;
+    mix-blend-mode: lighten;
+}
+.original-img{
+    margin: 0px auto;
+}
+img{
+    width:300px;
+    height: 300px;
+}
+/* Animation */
+.ylw:hover{
+    background-color: red;
+    transform: scale(0.9);
+    transition-duration:500ms;
+}
+.blu:hover{
+    background-image: repeating-linear-gradient(120deg, #afc7bf, #afc7bf 0.8vmin, rgba(255, 255, 255, 0) 0.35vmin, rgba(255, 255, 255, 0) 1.2vmin); 
+}
